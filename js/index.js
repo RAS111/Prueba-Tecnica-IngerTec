@@ -1,6 +1,6 @@
 $("#showText").click(function () {
     $.ajax({
-        url: "../js/home.json",
+        url: "./js/home.json",
         success: function (data) {
             $("#content").html(data[0].texto);
             $("#content").removeClass("d-none");
